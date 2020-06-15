@@ -1,6 +1,6 @@
-module github.com/tmohammad78/hello
+module github.com/tmohammad78/golang-Api
 
-go 1.14
+go 1.13
 
 require (
 	github.com/99designs/gqlgen v0.11.3
