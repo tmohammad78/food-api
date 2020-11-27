@@ -16,6 +16,9 @@ func main() {
 	server.GET("/food", func(context *gin.Context) {
 		context.JSON(200, foodController.GetFood())
 	})
+	server.POST("/food", func(context *gin.Context) {
+		context.JSON(200, foodController.SaveFood(context))
+	})
 	//server.GET("/food", func(context *gin.Context) {
 	//	context.JSON(200, gin.H{
 	//		"message": "ok",

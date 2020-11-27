@@ -5,4 +5,5 @@ type Food struct {
 	Ingredient string `json:"ingredient"`
 	Price      string `json:"price"`
 	IsExist    bool   `json:"is_exist"`
+	Rate       int    `json:"rate"`
 }
