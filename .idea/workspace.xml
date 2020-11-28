@@ -25,7 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69347b25-c989-42bc-8232-e1d0bb0a0c11" name="Default Changelist" comment="" />
+    <list default="true" id="69347b25-c989-42bc-8232-e1d0bb0a0c11" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gin.log" beforeDir="false" afterPath="$PROJECT_DIR$/gin.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +100,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="develop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -107,7 +122,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat(add get request)" />
     <MESSAGE value="feat(edit entity and post request)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(edit entity and post request)" />
+    <MESSAGE value="conflict workspace" />
+    <MESSAGE value="delete logger" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete logger" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -117,29 +134,37 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="602" y="319" width="706" height="475" key="#Log_Highlighting_(ideolog)/0.27.1920.1053@0.27.1920.1053" timestamp="1606499118927" />
-    <state x="499" y="98" width="912" height="917" key="CommitChangelistDialog2" timestamp="1606498549105">
+    <state x="499" y="98" width="912" height="917" key="CommitChangelistDialog2" timestamp="1606499654071">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="499" y="98" width="912" height="917" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1606498549105" />
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1606499101934">
+    <state x="499" y="98" width="912" height="917" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1606499654071" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1606499638032">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1606499101934" />
-    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1606499101934">
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1606499638032" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1606499638032">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1606499101934" />
-    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1606499101933">
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1606499638032" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1606499638032">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1606499101933" />
-    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1606499101934">
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1606499638032" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1606499638032">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1606499101934" />
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1606499453711">
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1606499638032" />
+    <state x="182" y="121" width="1536" height="879" key="MergeDialog" timestamp="1606499560950">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1606499453711" />
+    <state x="182" y="121" width="1536" height="879" key="MergeDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606499560950" />
+    <state x="591" y="316" width="728" height="482" key="MultipleFileMergeDialog" timestamp="1606499563613">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="591" y="316" width="728" height="482" key="MultipleFileMergeDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606499563613" />
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1606499657288">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1606499657288" />
   </component>
 </project>
