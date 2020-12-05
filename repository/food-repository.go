@@ -1,9 +1,10 @@
 package repository
 
 import (
+	"fmt"
+	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 	"github.com/tmohammad78/food-api/entity"
-	"gorm.io/gorm"
 )
 
 type FoodRepository interface {
@@ -18,15 +19,22 @@ type dataBase struct {
 	connection *gorm.DB
 }
 
+const (
+	host     = "localhost"
+	port     = "5432"
+	user     = "postgres"
+	password = "godisbigest"
+	dbname   = "restaurant"
+)
+
 func NewFoodRepository() FoodRepository {
-	db, err := gorm.Open("postgres", 'test.db')
+	config := fmt.Sprintf("host=%s port=%s user=%s dbname=%s sslmode=disable password=%s", host, port,
+		user, dbname, password)
+	db, err := gorm.Open("postgres", config)
 	if err != nil {
 		panic("Fail to connect database")
 	}
-	err = db.AutoMigrate(&entity.Food{}, &entity.Person{})
-	if err != nil {
-		panic("Fail in the migrate")
-	}
+	db.AutoMigrate(&entity.Food{}, &entity.Person{})
 	return &dataBase{
 		connection: db,
 	}
@@ -40,7 +48,10 @@ func (db *dataBase) CloseDB() {
 }
 
 func (db *dataBase) Save(food entity.Food) {
-	db.connection.Create(&food)
+	err := db.connection.Create(&food)
+	if err != nil {
+		fmt.Println(err)
+	}
 }
 func (db *dataBase) Update(food entity.Food) {
 	db.connection.Save(&food)

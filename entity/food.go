@@ -3,11 +3,11 @@ package entity
 import "time"
 
 type Person struct {
-	ID       uint64 `gorm:"primary_key;auto_increment" json:"id"`
-	FistName string `json:"first_name" binding:"required" gorm:"type:varchar(32)"`
-	LastName string `json:"last_name" binding:"required" gorm:"type:varchar(32)"`
-	Age      int8   `json:"age" binding:"gte=1,lte=120"`
-	Email    string `json:"email" binding:"required,email" gorm:"type:varchar(256)"`
+	ID        uint64 `gorm:"primary_key;auto_increment" json:"id"`
+	FirstName string `json:"first_name" binding:"required" gorm:"type:varchar(32)"`
+	LastName  string `json:"last_name" binding:"required" gorm:"type:varchar(32)"`
+	Age       int8   `json:"age" binding:"gte=1,lte=120"`
+	Email     string `json:"email" binding:"required,email" gorm:"type:varchar(256)"`
 }
 
 type Food struct {
